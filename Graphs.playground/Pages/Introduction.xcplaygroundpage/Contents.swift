@@ -9,8 +9,9 @@
  ## Graph Data Structures
  - Edge List (Look up O(n))
  - Adjacency Matrices (Look up O(1) but space inefficient)
- - Adjacency List (Look up is fasr and space efficient)
+ - Adjacency List (Look up is faster and space efficient)
  
  ### Table Of Contents
  - [Breadth First Search](Breadth%20First%20Search)
+ - [Depth First Search](Depth%20First%20Search)
  */

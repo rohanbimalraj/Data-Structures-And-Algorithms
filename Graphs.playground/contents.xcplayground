@@ -3,5 +3,6 @@
     <pages>
         <page name='Introduction'/>
         <page name='Breadth First Search'/>
+        <page name='Depth First Search'/>
     </pages>
 </playground>
