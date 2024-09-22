@@ -3,19 +3,23 @@ import Foundation
 public struct Stack<T> {
     fileprivate var array = [T]()
     
+    public init() {
+        array = []
+    }
+    
     var isEmpty: Bool {
         return array.isEmpty
     }
     
-    var count: Int {
+    public var count: Int {
         return array.count
     }
     
-    mutating func push(_ element: T) {
+    public mutating func push(_ element: T) {
         array.append(element)
     }
     
-    mutating func pop() -> T? {
+    public mutating func pop() -> T? {
         return array.popLast()
     }
     

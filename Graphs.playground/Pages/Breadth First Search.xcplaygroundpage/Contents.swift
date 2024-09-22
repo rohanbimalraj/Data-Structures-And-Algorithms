@@ -12,6 +12,7 @@ import Foundation
 
 extension Graph {
     
+    // BFS traversal from a given source s
     func BFS(s: Int) -> [Int] {
         
         var result = [Int]()
@@ -24,13 +25,13 @@ extension Graph {
         
         // Mark first vertex as visited and enqueue
         visited[s] = true
-        print("Starting at \(s)")
+        // print("Starting at \(s)")
         queue.add(s)
         result.append(s)
         
         while queue.count > 0 {
             let current = queue.remove()!
-            print("De-queueing \(current)")
+            // print("De-queueing \(current)")
             
             // Get all the adjacent vertices of the current vertex
             // If adjacent has not being visited, mark visited and enqueue
@@ -38,7 +39,7 @@ extension Graph {
             for n in adj[current] {
                 if visited[n] == false {
                     visited[n] = true
-                    print("Queuing \(n)")
+                    // print("Queuing \(n)")
                     queue.add(n)
                     result.append(n)
                 }
@@ -81,7 +82,7 @@ g.addEdge(v: 5, w: 3)
 g.addEdge(v: 3, w: 0)
 g.addEdge(v: 5, w: 2)
 g.addEdge(v: 2, w: 7)
-print("--------------------DIRECTED--------------------")
+print("--------------------BSF DIRECTED--------------------")
 print(g.BFS(s: 0))
 print("--------------------END--------------------")
 
@@ -126,6 +127,6 @@ ng.addEdge(v: 5, w: 2)
 ng.addEdge(v: 2, w: 5)
 ng.addEdge(v: 2, w: 7)
 ng.addEdge(v: 7, w: 2)
-print("--------------------UNDIRECTED--------------------")
+print("--------------------BSF UNDIRECTED--------------------")
 print(g.BFS(s: 0))
 print("--------------------END--------------------")
