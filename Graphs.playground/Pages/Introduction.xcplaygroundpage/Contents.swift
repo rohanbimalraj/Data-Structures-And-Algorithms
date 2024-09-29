@@ -12,6 +12,8 @@
  - Adjacency List (Look up is faster and space efficient)
  
  ### Table Of Contents
- - [Breadth First Search](Breadth%20First%20Search)
- - [Depth First Search](Depth%20First%20Search)
+ 1. [Breadth First Search](Breadth%20First%20Search)
+ 2. [Depth First Search](Depth%20First%20Search)
+ 3. [Path Exists Question](Path%20Exists%20Question)
+ 4. [Shortest path between two nodes in an unweighted graph](Shortest%20Path%20Unweighted)
  */
