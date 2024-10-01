@@ -1,7 +1,7 @@
 import Foundation
 
 public class Graph {
-    var V = 0                       // number of vertices
+    public var V = 0                 // number of vertices
     public var adj = [[Int]]()      // adjacency list
     
     public init(_ V: Int) {
