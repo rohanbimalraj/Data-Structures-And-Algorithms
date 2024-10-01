@@ -77,17 +77,12 @@ if let path = graph.shortestPath(from: 0, to: 5) {
  arrived at that node. This allows you to “backtrack” from the destination node to the source node.
 
  Imagine a graph with nodes connected like this:
- */
-
-/*
- 
+```
  0 -- 1 -- 3
  |         |
  2 -- 4 -- 5
  
- */
-
-/*:
+ ```
  Let’s say you want to find the shortest path from node 0 to node 5.\
  1.Starting at node 0, you explore its neighbors 1 and 2. At this point, your parent dictionary
  looks like this:
@@ -109,10 +104,9 @@ if let path = graph.shortestPath(from: 0, to: 5) {
  parent[5] = 3
  
  Once you reach the destination node 5, you can reconstruct the path by backtracking using the parent dictionary:
-
-     •    Start at node 5, go to parent[5] = 3.
-     •    From node 3, go to parent[3] = 1.
-     •    From node 1, go to parent[1] = 0.
+- Start at node 5, go to parent[5] = 3.
+- From node 3, go to parent[3] = 1.
+- From node 1, go to parent[1] = 0.
 
  The shortest path is 0 -> 1 -> 3 -> 5.
  
