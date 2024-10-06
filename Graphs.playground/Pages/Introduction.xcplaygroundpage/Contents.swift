@@ -14,7 +14,8 @@
  ### Table Of Contents
  1. [Breadth First Search](Breadth%20First%20Search)
  2. [Depth First Search](Depth%20First%20Search)
- 3. [Detect a cycle in an undirected graph using DFS](Detect%20Cycle%20In%20Undirected%20Graph%20DFS)
- 4. [Path Exists Question](Path%20Exists%20Question)
- 5. [Shortest path between two nodes in an unweighted graph](Shortest%20Path%20Unweighted)
+ 3. [Check if a graph is bipartite](Check%20Bipartite)
+ 4. [Detect a cycle in an undirected graph using DFS](Detect%20Cycle%20In%20Undirected%20Graph%20DFS)
+ 5. [Path Exists Question](Path%20Exists%20Question)
+ 6. [Shortest path between two nodes in an unweighted graph](Shortest%20Path%20Unweighted)
  */
