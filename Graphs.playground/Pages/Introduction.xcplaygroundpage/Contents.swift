@@ -16,7 +16,8 @@
  2. [Depth First Search](Depth%20First%20Search)
  3. [Check if a graph is bipartite](Check%20Bipartite)
  4. [Detect a cycle in an undirected graph using DFS](Detect%20Cycle%20In%20Undirected%20Graph%20DFS)
- 5. [Find the number of connected components in an undirected graph.](Find%20Connected%20Components)
- 6. [Path Exists Question](Path%20Exists%20Question)
- 7. [Shortest path between two nodes in an unweighted graph](Shortest%20Path%20Unweighted)
+ 5. [Find bridges in a graph](Find%20Bridges)
+ 6. [Find the number of connected components in an undirected graph](Find%20Connected%20Components)
+ 7. [Path Exists Question](Path%20Exists%20Question)
+ 8. [Shortest path between two nodes in an unweighted graph](Shortest%20Path%20Unweighted)
  */
