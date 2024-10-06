@@ -1,5 +1,3 @@
-# Data Structures And Algorithms
-
 <p align="center">
 <kbd>
   <img style="border-radius:20%;" class="rounded-image" src="./Banner/banner.png" alt="logo" height="250"/></kbd>
