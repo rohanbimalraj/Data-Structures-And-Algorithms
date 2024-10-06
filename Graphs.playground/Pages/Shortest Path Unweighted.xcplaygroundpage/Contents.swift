@@ -1,5 +1,5 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Find shortest path between two nodes in an unweighted graph
+ # Find shortest path between two nodes in an unweighted graph
  Here’s how you can find the shortest path between two nodes in an unweighted graph.
  The algorithm typically used for this is ***Breadth-First Search (BFS)*** because it explores all
  neighbors at the present depth level before moving on to nodes at the next depth level. This

@@ -1,12 +1,12 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Check if a graph is bipartite
+ # Check if a graph is bipartite
  To check if a graph is ***bipartite***, we need to determine if we can divide the graph’s vertices
  into two
  disjoint sets such that no two vertices within the same set are adjacent. In other words, in a
  bipartite graph, we can color the graph using two colors such that no two adjacent vertices share the
  same color.
  
- **Approach:**
+ ## Approach:
  
  We can use BFS or DFS to solve this problem by trying to color the graph with two colors (say, 0 and
  1). If we find any two adjacent vertices that have the same color, then the graph is not bipartite.
@@ -82,7 +82,7 @@ if graph.isBipartite() {
 }
 
 /*:
- **Explanation:**
+ ## Explanation:
  
  - Bipartiteness: A graph is bipartite if it can be colored with two colors such that no two adjacent vertices share the same color.
  - Color Array: We maintain a color array where color[i] is the color assigned to vertex i. If a vertex hasn’t been colored yet, it will be -1.
@@ -135,7 +135,7 @@ nGraph.addEdge(v: 3, w: 1)  // Manually adding reverse edge
  }
  
 /*:
- **Example of a Non-Bipartite Graph:**
+ ## Example of a Non-Bipartite Graph:
  
  Consider the following undirected edges:
  

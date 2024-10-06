@@ -1,5 +1,5 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Breadth First Search
+ # Breadth First Search
  The following code demonstrates **BFS**
  
  ### Real world use cases

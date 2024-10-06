@@ -1,5 +1,5 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Check if path exists in undirected graph
+ # Check if path exists in undirected graph
  You are given in undirected graph consisting of N vertices, numbered from 1 to N, and M edges.
  
  The graph is described by two arrays, A and B, both of length M. A pair A[K] and B[K] for K from 0 to M-1, describe the edge between vertex A[K] and vertex B[K].

@@ -1,5 +1,5 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Depth First Search
+ # Depth First Search
  The following code demonstrates **DFS**
  ### Real world use cases
  - Path Finding

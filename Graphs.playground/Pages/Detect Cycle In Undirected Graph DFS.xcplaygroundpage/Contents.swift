@@ -1,10 +1,10 @@
 /*: [< Previous](@previous)          [Home](Introduction)           [Next >](@next)
- ## Detect a cycle in an undirected graph using DFS
+ # Detect a cycle in an undirected graph using DFS
  We want to detect if there’s a cycle in an undirected graph using DFS. In an undirected graph, a\
  cycle exists if you can return to a previously visited node from the current node through a path,
  without retracing your steps via the immediate parent.
  
- **Approach:**
+ ## Approach:
  
  1. DFS Traversal:
  
