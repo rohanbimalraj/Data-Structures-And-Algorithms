@@ -17,5 +17,6 @@
  ### Table Of Contents
  1. [Introduction](1.Introduction)
  2. [Cyclic Rotation](2.Cyclic%20Rotation)
- 3. [DashPhoneNumber](3.DashPhoneNumber)
+ 3. [DashPhone Number](3.DashPhoneNumber)
+ 4. [Contact Match](4.ContactMatch)
  */
