@@ -15,5 +15,7 @@
  - How the array grow: When a new element is added to an array that has reached its maximum capacity, a new array is created with double the size of the original. The existing elements are copied into the new array, and then the new element is inserted.
  
  ### Table Of Contents
- 1. [Cyclic Rotation](2.Cyclic%20Rotation)
+ 1. [Introduction](1.Introduction)
+ 2. [Cyclic Rotation](2.Cyclic%20Rotation)
+ 3. [DashPhoneNumber](3.DashPhoneNumber)
  */
