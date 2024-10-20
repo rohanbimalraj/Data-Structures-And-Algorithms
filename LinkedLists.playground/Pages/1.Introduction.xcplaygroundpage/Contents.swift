@@ -5,7 +5,6 @@
  ### Table Of Contents
  
  1. [Introduction](1.Introduction)
- 2. [Add Front](2.Add%20Front)
- 3. [Get First](3.Get%20First)
+ 2. [Basic Operations](2.Basic%20Operations)
  */
 
